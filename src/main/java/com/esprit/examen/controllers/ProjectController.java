@@ -4,7 +4,7 @@ import java.util.List;
 
 
 @RestController
-
+@RequiredArgsConstructor
 public class ProjectController {
     @GetMapping
 	public List<Produit> getProduits() {
