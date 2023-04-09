@@ -10,6 +10,10 @@ public class ProjectController {
 	public List<Produit> getProduits() {
 		return produitService.retrieveAllProduits();
 	}
-    
+
+    @GetMapping("/{secteurActivite-id}")
+	public SecteurActivite retrieveSecteurActivite(@PathVariable("secteurActivite-id") Long secteurActiviteId) {
+		return secteurActiviteService.retrieveSecteurActivite(secteurActiviteId);
+	}
 	
 }
