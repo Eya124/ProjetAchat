@@ -12,5 +12,10 @@ public class ProjectController {
     public Facture retrieveFacture(@PathVariable("facture-id") Long factureId) {
         return factureService.retrieveFacture(factureId);
     }
+
+    @GetMapping("/{secteurActivite-id}")
+	public SecteurActivite retrieveSecteurActivite(@PathVariable("secteurActivite-id") Long secteurActiviteId) {
+		return secteurActiviteService.retrieveSecteurActivite(secteurActiviteId);
+	}
 	
 }
