@@ -15,5 +15,9 @@ public class ProjectController {
 	public SecteurActivite retrieveSecteurActivite(@PathVariable("secteurActivite-id") Long secteurActiviteId) {
 		return secteurActiviteService.retrieveSecteurActivite(secteurActiviteId);
 	}
+    @GetMapping("/{produit-id}")
+	public Produit retrieveRayon(@PathVariable("produit-id") Long produitId) {
+		return produitService.retrieveProduit(produitId);
+	}
 	
 }
