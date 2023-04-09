@@ -10,4 +10,20 @@ public class ProjectController {
 	public List<Stock> getStocks() {
 		return stockService.retrieveAllStocks();
 	}
+    @GetMapping
+	public List<Produit> getProduits() {
+		return produitService.retrieveAllProduits();
+	}
+    
+    @GetMapping("/{facture-id}")
+
+    public Facture retrieveFacture(@PathVariable("facture-id") Long factureId) {
+        return factureService.retrieveFacture(factureId);
+    }
+
+    @GetMapping("/{secteurActivite-id}")
+	public SecteurActivite retrieveSecteurActivite(@PathVariable("secteurActivite-id") Long secteurActiviteId) {
+		return secteurActiviteService.retrieveSecteurActivite(secteurActiviteId);
+	}
+	
 }
