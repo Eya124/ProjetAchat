@@ -2,7 +2,8 @@
 ### Description
 This project will allow you to work as a team, manipulate the concepts learned in class, and familiarize yourself with the most commonly used Git commands.
 
-### Contact : 
+
+### Contributors : 
   * Eya TRABELSI : eya.trabelsi.1@esprit.tn
   * Ibrahim BARKALLAH : ibrahim.barkallah@esprit.tn
   * Firas BEN ALI : firas.benali@esprit.tn
