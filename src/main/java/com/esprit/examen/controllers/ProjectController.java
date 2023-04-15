@@ -4,7 +4,7 @@ import java.util.List;
 
 
 @RestController
-
+@RequiredArgsConstructor
 public class ProjectController {
 
     private final ICategorieProduitService categorieProduitService;
@@ -39,7 +39,8 @@ public class ProjectController {
     public Reglement addReglement(@RequestBody Reglement r) {
         Reglement reglement = reglementService.addReglement(r);
         return reglement;
-    }
+
+=======
 	@GetMapping("/retrieve-all-stocks")
 	public List<Stock> getStocks() {
 		return stockService.retrieveAllStocks();
@@ -60,4 +61,6 @@ public class ProjectController {
 		return secteurActiviteService.retrieveSecteurActivite(secteurActiviteId);
 	}
 
+	
+>>>>>>> 534582474d8b13044a0707bcab710c017ce68896
 }
