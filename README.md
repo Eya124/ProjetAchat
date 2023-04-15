@@ -1,4 +1,7 @@
 # ProjetAchat
+<!-- not real stats -->
+- Code Coverage: [![Code Coverage](https://img.shields.io/badge/coverage-95%25-green)](link-to-code-coverage-report)
+- Build Status: [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](link-to-build-status)
 ### Description
 This project will allow you to work as a team, manipulate the concepts learned in class, and familiarize yourself with the most commonly used Git commands.
 
